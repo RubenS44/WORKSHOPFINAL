@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fullscreen WeMap</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+    }
+    .iframe-container {
+      position: relative;
+      width: 100vw;
+      height: 100vh;
+      overflow: hidden;
+    }
+    iframe {
+      border: none;
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 150vw;
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe 
+      src="https://livemap.getwemap.com/dom?emmid=21452&wemapHash=%23%2Fsearch%3Fmaxaltitude%3D5%26minaltitude%3D0%4048.8469402%2C2.2496800%2C16.46#/search?maxaltitude=5&minaltitude=0@48.8469402,2.2496800,16.46"
+      allowfullscreen>
+    </iframe>
+  </div>
+</body>
+</html>
